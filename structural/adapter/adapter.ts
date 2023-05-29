@@ -72,7 +72,7 @@ const roundPeg = new RoundPeg(3);
 console.log(hole.fits(roundPeg));
 
 const smallSquarePeg = new SquarePeg(5);
-// console.log(hole.fits(speg)); COMPILATION ERROR
+// console.log(hole.fits(smallSquarePeg)); COMPILATION ERROR
 const smallSquarePegAdapter = new SquarePegAdapter(smallSquarePeg);
 console.log(hole.fits(smallSquarePegAdapter));
 
